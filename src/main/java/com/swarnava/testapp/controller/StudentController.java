@@ -27,6 +27,7 @@ public class StudentController {
 	public void createStudent(@RequestBody Student student) {
 		
 		stuService.createStudent(student);
+		System.out.println("Hello");
 		
 	}
 	
